@@ -16,16 +16,17 @@ Please contact yzzongshi@gmail.com and cc alan.ritter@cc.gatech.edu (the authors
 get access to the full annotated dataset.  
 
 
-## Script
-The script is used to generate the CRF results in this paper: [url]  
+## Script and Report
+The script is used to generate the CRF results in this report: 
+https://github.com/cynthiasuxy/Final_Project/blob/master/Final%20Project_Xinyi%20Su.pdf
 
 Please edit the configuration as:  
 `python crf.py --test_positive_path data/positive-add_text.jsonl --death_case_path data/death-add_text.jsonl`
 
 ## Results
 
-The accuracy score for the whole corpus including both events using the CRF models are 0.71 and 0.77 for the base 
-feature set and the other feature set including those of previous and subsequent words respectively.
+The accuracy scores for the whole corpus using the CRF models are 0.71 and 0.77 for the base 
+feature set and the second feature set that includes the features of previous and subsequent words.
 For each specific event, please find the scores listed in the table below.
 
 |Event  | Model Name | Accuracy | Precision | Recall|F1|
